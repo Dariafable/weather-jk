@@ -14,7 +14,7 @@ const Quote = () => {
 
     const getALL = async () => {
       const { data } = await axios.get(url2);
-      console.log(data);
+      //console.log(data);
       setData(data);
     };
     
